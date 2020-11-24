@@ -10,6 +10,6 @@ Scenario Outline: Add two numbers
 
 Examples: 
 	| Column            |
-	| Spa ces           |
-	#| Amp&ersam         |
+	#| Spa ces           |
+	| Amp&ersam         |
 	#| Spaces & Ampersam |
