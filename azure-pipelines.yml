@@ -38,3 +38,4 @@ steps:
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
     rerunFailedTests: true
+    rerunFailedThreshold: '100'
