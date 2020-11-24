@@ -1,4 +1,5 @@
-﻿using TechTalk.SpecFlow;
+﻿using System;
+using TechTalk.SpecFlow;
 
 namespace NUnitRetry2213.Steps
 {
@@ -35,8 +36,8 @@ namespace NUnitRetry2213.Steps
             // To use the multiline text or the table argument of the scenario,
             // additional string/Table parameters can be defined on the step definition
             // method. 
+            throw new Exception("for retry");
 
-            
         }
 
         [When("the two numbers are added")]
