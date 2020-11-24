@@ -77,8 +77,6 @@ namespace NUnitRetry2213.Features
         [NUnit.Framework.DescriptionAttribute("Add two numbers")]
         [NUnit.Framework.CategoryAttribute("mytag")]
         [NUnit.Framework.TestCaseAttribute("Spa ces", null)]
-        [NUnit.Framework.TestCaseAttribute("Amp&ersam", null)]
-        [NUnit.Framework.TestCaseAttribute("Spaces & Ampersam", null)]
         public virtual void AddTwoNumbers(string column, string[] exampleTags)
         {
             string[] @__tags = new string[] {

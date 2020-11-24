@@ -11,5 +11,5 @@ Scenario Outline: Add two numbers
 Examples: 
 	| Column            |
 	| Spa ces           |
-	| Amp&ersam         |
-	| Spaces & Ampersam |
+	#| Amp&ersam         |
+	#| Spaces & Ampersam |
